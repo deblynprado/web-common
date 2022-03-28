@@ -4,8 +4,12 @@
   <label for="password" class="sc-only">Password</label>
   <input type="password" id="password" placeholder="Password">
 </form>
-
-<a href="#" class="btn">Login using OAUTH</a>
+<br>
+<br>
+<br>
+<div class="line-div">
+  <a href="#" class="btn">Login using OAUTH</a>
+</div>
 
 <style>
   .sc-only {
@@ -16,9 +20,16 @@
     left: -900px;
   }
 
+  .line-div {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+
   .btn {
     margin: 0;
-    padding: 5% 2%;
+    padding: 1% 3%;
     border-radius: 5px;
     background-color: #ccc;
     color: #fff;
